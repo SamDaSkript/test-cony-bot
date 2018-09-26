@@ -19,7 +19,11 @@ async def greet(ctx):
 async def wave(ctx):
     await ctx.send(":wave:")
     
+@bot.command()
+async def invite(ctx):
+    await ctx.send("Bot Invite: + "https://discordapp.com/oauth2/authorize?client_id=493870175356190724&scope=bot"")
     
-bot.run('https://discordapp.com/api/webhooks/494346956370608128/4xbRZRkZ6r8C4MxpEdJMEZOOfpYUCMGkc99uze_fEVL3ynOt_Ierm57tFv9TjAyqerEN')
+    
+bot.run('NDkzODcwMTc1MzU2MTkwNzI0.Dox77A.ZYZ5ZUJra6YVVy0cYOzM53r2QhM')
 
 # NDkzODcwMTc1MzU2MTkwNzI0.Dox77A.ZYZ5ZUJra6YVVy0cYOzM53r2QhM
