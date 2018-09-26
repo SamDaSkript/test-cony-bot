@@ -2,7 +2,7 @@ import discord
 import asyncio
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='/')
 
 @bot.event
 async def on_ready():
@@ -17,7 +17,7 @@ async def greet(ctx):
     
 @bot.command()
 async def wave(ctx):
-    await ctx.send(":wave:")
+    await ctx.send(":wave: @user.name")
     
 @bot.command()
 async def invite(ctx):
