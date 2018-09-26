@@ -1,2 +1,1 @@
-BOT_TOKEN: NDkzODcwMTc1MzU2MTkwNzI0.Dox77A.ZYZ5ZUJra6YVVy0cYOzM53r2QhM
 worker: python bot.py
