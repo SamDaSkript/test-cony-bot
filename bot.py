@@ -16,8 +16,8 @@ async def status(ctx):
     await ctx.send("Current Bot Status: bot.user.status")
     
 @bot.command(pass_context=True)
-async def help(ctx, member: discord.Member):
-    await bot.send_message(member, 'Yo!')
+async def wow(ctx, member: discord.Member):
+    await bot.send_message(member, 'wow')
     
 @bot.command()
 async def invite(ctx):
