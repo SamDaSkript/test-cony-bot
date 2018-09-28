@@ -15,10 +15,9 @@ async def on_ready():
 async def status(ctx):
     await ctx.send("Current Bot Status: bot.user.status")
     
-@bot.command(pass_context=True)
-async def wow(ctx, member: discord.Member):
-    await bot.send_message(member, 'wow')
-    start_private_message(user)
+@bot.command()
+async def suggest(ctx):
+    await client.send_message(442646501433540608, str(member) + suggeste)
     
 @bot.command()
 async def invite(ctx):
