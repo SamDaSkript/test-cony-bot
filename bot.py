@@ -17,7 +17,7 @@ async def status(ctx):
     
 @bot.command()
 async def suggest(ctx):
-    await client.send_message(442646501433540608, str(member) + suggeste)
+    await client.send_message(493867750335315970, "Welcome to The Hole of Freedom @" + str(member))
     
 @bot.command()
 async def invite(ctx):
