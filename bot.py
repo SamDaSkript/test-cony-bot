@@ -15,6 +15,10 @@ async def on_ready():
 async def status(ctx):
     await ctx.send("Current Bot Status: bot.user.status")
     
+@bot.command(pass_context=True)
+async def help(ctx, member: discord.Member):
+    await bot.send_message(member, 'Yo!')
+    
 @bot.command()
 async def invite(ctx):
     await ctx.send("Bot Invite: https://discordapp.com/oauth2/authorize?client_id=493870175356190724&scope=bot :: Discord Invite: Invite all your friends! (https://discord.gg/ebGEX8J)")
