@@ -18,6 +18,7 @@ async def status(ctx):
 @bot.command(pass_context=True)
 async def wow(ctx, member: discord.Member):
     await bot.send_message(member, 'wow')
+    start_private_message(user)
     
 @bot.command()
 async def invite(ctx):
