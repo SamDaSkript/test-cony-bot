@@ -17,7 +17,7 @@ async def status(ctx):
     
 @bot.command()
 async def ping(ctx):
-    await ctx.send("Pong! + "bot.user.ping" ")
+    await ctx.send("Pong! :wink: Gotcha!")
     
 @bot.command()
 async def invite(ctx):
