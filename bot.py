@@ -16,8 +16,8 @@ async def status(ctx):
     await ctx.send("Current Bot Status: bot.user.status")
     
 @bot.command()
-async def suggest(ctx):
-    await client.send_message(493867750335315970, "Welcome to The Hole of Freedom @" + str(member))
+async def ping(ctx):
+    await ctx.send("Pong! + "bot.user.ping" ")
     
 @bot.command()
 async def invite(ctx):
