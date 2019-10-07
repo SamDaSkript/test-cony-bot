@@ -25,6 +25,4 @@ async def invite(ctx):
     await ctx.send("Bot Invite: https://discordapp.com/oauth2/authorize?client_id=493870175356190724&scope=bot :: Discord Invite: Invite all your friends! (https://discord.gg/ebGEX8J)")
     
     
-bot.run('NDkzODcwMTc1MzU2MTkwNzI0.Dox77A.ZYZ5ZUJra6YVVy0cYOzM53r2QhM')
-
-# NDkzODcwMTc1MzU2MTkwNzI0.Dox77A.ZYZ5ZUJra6YVVy0cYOzM53r2QhM
+bot.run('no more')
